@@ -19,10 +19,10 @@ body{
   background-repeat: no-repeat;
   height: 30px;
   color: rgb(255, 255, 255);
-  
   grid-template-columns: auto auto;
   grid-template-rows: auto;
   justify-content: center;
+  
   
 }
 .encabezado ul{
@@ -30,10 +30,11 @@ body{
   flex-direction: row;
   list-style: none;
   padding-top: 5px;
+  
 }
 .encabezado ul li{
   margin-left: 20px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 /* temina */
 
@@ -44,12 +45,11 @@ body{
 main{
   background-color: rgb(0, 0, 0);
   height: 80px;
-  font-family: 'Varela Round', sans-serif;
+  
 }
 .sub__menu{
   display: flex;
   height: 80px;
-  color: #ffffff;
   font-size: 15px;
   align-content: center;
   margin: auto;
@@ -64,6 +64,12 @@ main{
 .sub__menu ul li{
   padding-top: 25px;
   padding-left: 20px;
+  
+}
+.sub__menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+
 }
 
 .logo{
@@ -77,10 +83,9 @@ main{
   background-color: #000000;
 }
  .arriba{
-  width: 80%;
+  width: 70%;
   height: 100px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin: auto;
   background: linear-gradient(to top, rgba(255, 0, 0, 0),#03b1a86b); 
 }
 
@@ -88,7 +93,7 @@ main{
   display:flex;
   flex-direction: row;
   justify-content: center;
-  width: 80%;
+  width: 70%;
   height: 700px;
   margin: auto;
   }
@@ -96,17 +101,17 @@ main{
     width: 10%;
     background: linear-gradient(to left, rgba(255, 0, 0, 0),#03b1a84b); 
     margin-top: -100px;
-    height: 2470px;
+    height: 4340px;
     }
  
   .fin{
     width: 10%;
     background: linear-gradient(to right,rgba(255, 0, 0, 0),#d105e459); 
     margin-top: -100px;
-    height: 2470px;
+    height: 4340px;
   }
 .centro{
-  width: 100%;
+  width: 80%;
   font-size: 90px;
   font-family: 'Big Shoulders Inline Display', cursive;
   background-image:  url(../images/hexagonos-3d-iluminacion-neon_3840x2160_xtrafondos.com.jpg);
@@ -136,8 +141,9 @@ main{
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top: 50px;
-justify-content: center;
+ padding-top: 20px;
+ justify-content: center;
+
 }
 .nova{
  margin-left: -70px;
@@ -149,17 +155,18 @@ justify-content: center;
   height: 70%;
   margin-top: 10px;
 }
-
 .parrafo_novaventa{
   font-size: 25px;
   width: 30%;
   padding-left: 100px;
-  
+  font-family: 'Oswald', sans-serif;
+  margin-top: -70px;
+  color: white;
 }
 .parrafo_novaventa h2{
   color: #00fff2;
   text-shadow: 0 0 0.2em #03b1a8, 0 0 0.2em #03b1a8,
-  0 0 0.2em rgb(195, 4, 233);
+  0 0 0.2em rgba(195, 4, 233, 0);
   font-size: 50px;
 }
 .video{
@@ -184,15 +191,9 @@ justify-content: center;
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   color: white;
-
- 
   }
-
-
-
-
 .parte_2{
-  width: 90%;
+  width: 70%;
   height: 800px;
   margin: auto;
   background-image: url(../images/fondo2.webp);
@@ -296,6 +297,8 @@ justify-content: center;
   0 0 0.2em rgb(195, 4, 233);
 }
 .parte_3{
+  width: 70%;
+  margin: auto;
   height: 800px;
   font-family: 'Big Shoulders Inline Display', cursive;
   font-size: 25px;
@@ -429,14 +432,563 @@ justify-content: center;
   z-index: 1;
 }
 
-.footer_f{
+
+.contenido_4{
+  width: 70%;
   margin: auto;
-  width: 80%;
-  height: 100px;
-  color: #00eeff;
-  background-image: radial-gradient(#4b0d8b, #d305e4);
-  background-size: auto 100px;
+  height: 800px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 25px;
+  align-items: center;
+  background-image: url(../images/jhon.jpg);
   background-repeat: no-repeat;
+  background-size: 80% 100%;
+  background-position:center;
+  
+  
+}
+.contenidosu{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.534);
+  margin: auto;
+}
+.videolirika{
+  display: block;
   text-align: center;
+  width: 40%;
+  padding-top: 20%;
+}
+.vi{
+  border: 5px ridge  rgba(9, 209, 223, 0.37);
+  box-shadow: 7px 7px 25px #ad07df;
+}
+.textolirika{
+  
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  width: 60%;
+}
+.t1{
+  height: 30%;
+  margin-left: 10px;
+  
+}
+.t2{
+  height: 30%;
+  margin-left: 30px;
+}
+.t3{
+ height: 10%;
+ margin-top: 5%;
+ margin-left: 10%;
+}
+.t4{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 30%;
+  padding-left: 10%;
+}
+
+
+
+.contenidoin{
+  width: 80%;
+  height: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
 
 }
+.p1{
+width: 33.3%;
+margin: auto;
+margin-left: 5%;
+font-size: 50px;
+}
+#correo{
+  height:50px;
+  width: 70%;
+  background-color: #000000;
+  color: #00fff2;
+}
+.p2{
+  width: 33.3%;
+  margin: auto;
+ 
+
+}
+.p3{
+  width: 33.3%;
+  margin: auto;
+  font-size: 25px;
+
+}
+
+
+.d_a{
+  text-shadow: 0 0 0.2em #03b1a8, 0 0 0.2em #03b1a8,
+  0 0 0.2em rgba(195, 4, 233, 0);
+}
+
+
+
+
+
+
+
+.contenido_5{
+   
+    width: 70%;
+    margin: auto;
+    height: 800px;
+    font-size: 25px;
+    align-items: center;
+    background-image: url(../images/CONTÁCTANOS.png);
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-position:center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    
+  
+}
+.contenido_co{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: auto;
+  height: 800px;
+}
+
+.y1{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  background-color: rgba(0, 0, 0, 0.24);
+  margin: auto;
+  
+}
+
+.y2{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#contactanos_i{
+  width: 80%;
+  height: 70px;
+  background-color: #000;
+  margin: auto;
+  border: 5px ridge  rgba(9, 209, 223, 0.37);
+  box-shadow: 7px 7px 25px #ad07df;
+  color:#03b1a8;
+  font-size: 20px;
+}
+.email_co{
+  width: 100%;
+  height: 50%;
+
+  margin-bottom: 50px;
+}
+.color_azul{
+  color: #00fff2;
+  text-shadow: 0 0 0.2em #03b1a8, 0 0 0.2em #03b1a8,
+  0 0 0.2em rgba(195, 4, 233, 0);
+  font-size: 50px;
+}
+.tex_t1{
+  font-size: 15px;
+}
+.tex_t2{
+  font-size: 35px;
+}
+.tex_t3{
+  font-size: 40px;
+
+}
+.textox{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+ height: 60px;
+  color: #fdb6ea;
+  text-shadow: 0 0 0.2em rgb(216, 6, 235), 0 0 0.2em rgb(222, 4, 241),
+  0 0 0.2em rgb(195, 4, 233);
+  margin-top: 50px;
+  margin-bottom: -70px;
+}
+
+.contacto_empresa{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+
+.info_superior{
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(37, 37, 37, 0.342);
+  color: #fff;
+  text-align: center;
+  letter-spacing: 20px;
+}
+section#caja1{
+  grid-area: caja1;
+}
+section#caja2{
+  grid-area: caja2;
+}
+section#caja3{
+  grid-area: caja3;
+}
+section#caja4{
+  grid-area: caja4;
+}
+section#caja5{
+  grid-area: caja5;
+}
+section#caja6{
+  grid-area: caja6;
+}
+
+.info_centro{
+  height: 130px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: grid;
+  grid-template-columns: 5% 5% 20% 20% 40%;
+  grid-template-rows:50% 50% ;
+  grid-template-areas:
+  "caja1 caja3 caja5 caja5 caja6"
+  "caja2 caja4 caja5 caja5 caja6"
+   ;
+  
+ 
+}
+#caja1{
+  margin: auto;
+}
+#caja2{
+  margin: auto;
+}
+#caja3{
+  margin: auto;
+}
+#caja4{
+  margin: auto;
+}
+.caja5{
+  display: flex;
+  flex-direction: row;
+  
+}
+.caja5 ul{
+  margin-left: 10px;
+}
+.caja5 ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 3px;
+  align-content: center;
+ 
+}
+.caja6{
+  display: flex;
+
+ padding: auto;
+}
+.tt1{
+  display: flex;
+  justify-content: start;
+  font-size: 30px;
+  
+    color: #fdb6ea;
+    text-shadow: 0 0 0.2em rgb(216, 6, 235), 0 0 0.2em rgb(222, 4, 241),
+    0 0 0.2em rgb(195, 4, 233);
+  
+}
+.tt2{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+
+.info_fin{
+  height: 50px;
+  background-color: rgba(37, 37, 37, 0.295);
+ 
+}
+.neon{
+  
+    color: #fdb6ea;
+    box-shadow: 0 0 0.2em rgb(216, 6, 235), 0 0 0.2em rgb(222, 4, 241),
+    0 0 0.2em rgb(195, 4, 233);
+    border-radius: 100px;
+}
+@media screen and (min-width:0px) and (max-width:767px){
+  .encabezado {
+    font-size: 5%;
+    height: 20px;
+  }
+  .sub__menu{
+    
+    font-size: 40%;
+    height: 50px;
+  }
+  .logoinicio{
+    width: 30%;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .arriba{
+    height: 30px;
+  }
+  .inicio{
+    margin-top: -30px;
+
+  }
+  .fin{
+    margin-top: -30px;
+  }
+  .contenido{
+    height: 300px;
+    margin: auto;
+    }
+    .centro{
+    background-size: 700px 700px;
+    background-attachment: local;
+   
+    }
+    .logon1{
+      width: 50px;
+      height: 50px;
+    }
+    .nova1{
+      width: 200px;
+      height: 40px;
+    }
+    .texto_novaventa{
+      font-size: 15%;
+    }
+    .parrafo_novaventa h2{
+      font-size: 100%;
+    }
+    .parrafo_novaventa{
+      
+      padding-left: 30%;
+      font-size: 10%;
+      margin-left: -50px;
+    }
+    .s2{
+      margin-top: 50px;
+    }
+   .video11{
+    width: 90% ;
+    height: 100%;
+    
+   }
+   .video{
+    width: 45%;
+    height: 100%;
+    margin-top: -50px;
+   }
+   .boton{
+    font-size: 60%;
+    padding: 10%;
+    
+   }
+   .contenido_4{
+    height: 300px;
+    background-size: cover;
+  }
+  .videolirika{
+    width: 40%;
+    
+    padding-top: 20%;
+  }
+  .vi{
+    width: 100%;
+    height: 50%;
+  }
+  .contenidosu{
+    width: 100%;
+  }
+  .textolirika{
+    width: 60%;
+    font-size: 35%;
+    padding-top: 10%;
+  }
+ 
+  .t4{
+    width: 10%;
+    height: 10%;
+  }
+  .t1{
+    height: 10%;
+  }
+  .t2{
+    height: 50%;
+  }
+  .letraboton{
+    font-size: 30%;
+    padding:3% ;
+  }
+  .p1{
+    
+    font-size: 50%;
+  }
+  #correo{
+    font-size: 15%;
+    height: 20px;
+    width: 80%;
+  }
+  .p3{
+    font-size: 35%;
+  }
+  .p2{
+    margin-top: 5%;
+  }
+  .textox{
+    font-size: 70%;
+    margin-top: 20px;
+  
+  }
+
+  .parte_2{
+    width: 80%;
+    margin-top: -150px;
+    
+  }
+  .contenido_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    font-size: 30%;
+  }
+  .cafe{
+    background-color: #00f7ff00;
+    box-shadow: 7px 7px 25px #00eeff00;
+  }
+  .gaseosas{
+    width: 100%;
+    background-color: #00f7ff00;
+    background-size: 120px 230px;
+    background-position: center;
+    box-shadow: 7px 7px 25px #00eeff00;
+  }
+  .snacks{
+    width: 100%;
+    height: 500px;
+    background-color: #c300ff00;
+    background-size: 120px 230px;
+    box-shadow: 7px 7px 25px #c300ff00;
+  }
+  .snacks:hover{
+    background-image: url(../images/frame.png);
+    background-size: 60px 70px;
+  }
+  .texto3{
+    font-size: 100%;
+    margin-top: -80px;
+  }
+  .parte_3{
+    height: 400px;
+  }
+  .carousel {
+    padding-top: 70px;
+  }
+  .slide-1 {
+    background-size: 40% 100%;
+  }
+  .slide-2 {
+    background-size: 40% 100%;
+  }
+  .slide-3 {
+    background-size: 40% 100%;
+  }
+  .slide-4 {
+    background-size: 40% 100%;
+  }
+  .slide-5 {
+    background-size: 40% 100%;
+  }
+  .slides-item {
+    height: 250px;
+    width: 300px;
+    width: 100%;
+  }
+  .slider-nav {
+    height: 1%;
+    padding: 0%;
+  }
+  .contenido_5{
+    height: 400px;
+  }
+  .tex_t2{
+    font-size: 80%;
+  }
+  .tex_t1{
+    font-size: 50%;
+  }
+  .tex_t3{
+    font-size: 50%;
+  }
+  .contenido_co{
+    height: 400px;
+  }
+  #contactanos_i{
+    font-size: 50%;
+    height: 50%;
+    padding: 5%;
+  }
+  .info_superior{
+    height: 10px;
+  }
+  .inicio{
+    height: 2215px;
+  }
+  .fin{
+    height: 2215px;
+  }
+  .caja5{
+    font-size: 20%;
+
+  }
+  .info_centro{
+    height: 75px;
+  }
+  .tt1{
+    font-size: 100%;
+
+  }
+  .tt2{
+    font-size: 100%;
+  }
+  .info_fin{
+    height: 20px;
+  }
+
+
+  
+  
+}
+  
+  
+
+
+

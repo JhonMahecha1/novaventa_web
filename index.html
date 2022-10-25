@@ -25,6 +25,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@800&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
 
 
     <title>Document</title>
@@ -37,20 +41,20 @@
                 <li>Cl. 12 #79A 25, Bogotá</li>
                 <li>contacto: 3124073780</li>
                 <li>L-V. (7am - 5pm) - S. (7am - 10am)</li>
-                <li>whatsapp: 3107860664 </li>
+                <li>whatsapp: 3124073780 </li>
                 <li>mercadeo@novaventa.com.co</li>
             </ul>
         </div>
     </header>
     <main class="jjj">
         <div class="sub__menu iluminacion_b" >
-            <img src="./images/NOVAVENTA.png" alt="" width="200" height="40" class="logo">
+            <img class="logoinicio" src="./images/NOVAVENTA.png" alt="" width="200" height="40" class="logo">
             <ul>
             
-                <li> contactactanos</li>
-                <li>nuestras maquinas</li>
-                <li>productos</li>
-                <li>blog</li>
+                <li><a href="#contenido5">contactactanos</a> </li>
+                <li><a href="#parte2">nuestras maquinas</a> </li>
+                <li><a href="#lirika">Lirika</a> </li>
+                <li><a href="#ubicaciones">Nuestras ubicaciones</a></li>
             </ul>
 
         </div>
@@ -59,12 +63,12 @@
          <section class="contenido">
             <div class="inicio"></div>
 
-            <div class="centro neon_rosa" >
+            <div id="lirika" class="centro neon_rosa" >
                 <div class="flex">
                     <div class="s1">
                         <div class="texto_novaventa">
-                            <div class="logon"><img src="./images/llogo.png" alt="" width="130px"></div>
-                            <div class="nova"><img src="./images/NOVAVENTA.png" alt="" width="500" height="100"></div> 
+                            <div class="logon"><img class="logon1" src="./images/llogo.png" alt="" width="130px"></div>
+                            <div class="nova"><img class="nova1" src="./images/NOVAVENTA.png" alt="" width="500" height="100"></div> 
                         </div>
                        
                     </div>
@@ -75,7 +79,7 @@
                         
                         <div class="sub"></div>
                         <div class="video">
-                        <iframe   width="400" height="200" style=" border: 5px ridge  rgb(9, 209, 223);" src="https://www.youtube.com/embed/rD7OcKzOi18" title="Juan Pablo nos comparte cómo se cuida, cuida a sus compañeros y cuida a la Compañía | Novaventa 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="video11"  width="400" height="200" style=" border: 5px ridge  rgb(9, 209, 223);" src="https://www.youtube.com/embed/rD7OcKzOi18" title="Juan Pablo nos comparte cómo se cuida, cuida a sus compañeros y cuida a la Compañía | Novaventa 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                          </div>
                          
                      </div>
@@ -84,8 +88,47 @@
             <div class="fin"></div>
         </section>
     </section>
+
+
+    <section>
+        <div class="contenido_4">
+
+            <div class="contenidosu">
+                <div class="videolirika">
+                    <iframe class="vi" width="400" height="200" src="https://www.youtube.com/embed/nKgg3pr5Cew" title="Novaventa en la vía | Máquina Lírika" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="textolirika d_a">
+                    <div class="t1 ">----- CONOCE A "LÍRIKA"</div>
+                    
+                    <div class="t2"><p>Te presentamos "Lírika", una de nuestras nuevas máquinas, con la que podrás preparar el más delicioso café. ¡Adquiérela en comodato! Contacta a tu ejecutivo comercial o llama a la línea de servicio al cliente 01 8000 512 202.</p></div>
+                    <div class="t3"><button class="boton letraboton">CONTACTANOS</button></div>
+                    <div class="t4">
+                       <a href="https://www.facebook.com/Novaventaenlavia"><img  src="./images/facebook.svg" width="50" alt=""></a> 
+                       <a href="https://www.instagram.com/novaventa_enlavia/"><img src="./images/instagram.svg" width="50" alt="">
+                        <a href="#"><img src="./images/wha.svg"width="50" alt=""></a>
+                        <a href="mailto:jfmahecha2@misena.edu.co"><img src="./images/email.svg"width="50" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contenidoin">
+                <div class="p1">DEJANOS CONTACTARTE</div>
+
+                <div class="p2"><form action="">
+                    
+                    <label for="correo"></label>
+                    <input type="text" placeholder="ingrese su correo" id="correo">
+                </form></div>
+                <div class="p3">Novaventa la mejor opcion para tu negocio</div>
+            </div>
+
+
+        </div>
+    </section>
+    <div class="textox">
+        NUESTRAS MAQUINAS
+    </div>
         
-        <section class="parte_2">
+        <section id="parte2" class="parte_2">
             <div class="contenido_2">
                 <div class="gaseosas flash">MÁQUINA DE BEBIDAS REFRESCANTES</div>
                 <div class="snacks flash">MÁQUINA DE SNACKS</div>
@@ -95,7 +138,7 @@
         <div class="texto3">
             <p>NUESTRAS UBICACIONES</p>
         </div>
-    <section class="parte_3">
+    <section id="ubicaciones" class="parte_3">
         <section class="carousel" >
             <div class="slides">
               <div class="slides-item slide-1" id="slide-1"></div>
@@ -114,13 +157,77 @@
 
         </section>
     </section>
+    
+
+    
+
+    <section id="contenido5" class="contenido_5">
+        <div class="contenido_co">
+            <div class="y1">
+                <div class="tex_t2 color_azul">____  Dejanos llamarte</div><br>
+                <div class="tex_t3"><h2>NOVAVENTA LA MEJOR OPCIÓN PARA TU EMPRESA O NEGOCIO</h2></div><br>
+                <div class="tex_t1">Novaventa S.A es una compañía que forma parte del Grupo Nutresa. Es el negocio especializado en canales alternativos de venta directa al consumidor. La compañía tiene su sede central en la ciudad de Medellín, región de Antoquia y fue establecida en el año 2000.</div>
+            
+            </div>
+
+            <div class="y2">
+                <div class="email_co"><form action="">
+                    
+                    <label for="contactanos_i"></label>
+                    <input type="text" placeholder="ingrese su correo" id="contactanos_i">
+                </form></div>
+                <div class="celular_2"><form action="">
+                    
+                    <label for="contactanos_i"></label>
+                    <input type="text" placeholder="ingrese su numero de contacto" id="contactanos_i">
+                </form></div>
+            </div>
+        </div>
+    </section>
+    <section class="contacto_empresa">
+        <div class="info_superior ">
+            <p class="tex_t3">Novaventa</p>
+        </div>
+        <div class="info_centro">
+            <section id="caja1"><a href="https://www.facebook.com/Novaventaenlavia"><img  src="./images/facebook.svg" width="100%" alt=""></a> </section>
+            <section id="caja2"><a href="#"><img src="./images/wha.svg" width="100%" alt=""></a></section>
+            <section id="caja3"><a href="https://www.instagram.com/novaventa_enlavia/"><img src="./images/instagram.svg" width="100%" alt=""></section>
+            <section id="caja4"><a href="https://twitter.com/Novaventa_Maq"><img src="./images/tw.svg" width="100%" alt=""></a></section>
+            <section class="caja5"  id="caja5">
+
+                
+
+                <ul>
+                    <li>Gestion eficiente</li>
+                    <li>Un solo provedor</li>
+                    <li>Conoce el proceso</li>
+                    <li>Preguntas Frecuentes</li><br>
+                </ul>
+                <ul>
+                    <li>Histotrias</li>
+                    <li>Testimonios</li>
+                    <li>noticias</li>
+                </ul>
+                <ul>
+                    <li>Portafolio</li>
+                    <li>Máquinas</li>
+                    <li>Te acompañamos</li>
+                </ul>
+            </section>
+            <section id="caja6">
+                <div class="tt1">Contactanos</div>
+                <div class="tt2"><img class="neon" src="./images/call.svg"  alt="">Bogotá 485 00 22 </div>
+            </section>
+        </div>
+        <div class="info_fin"></div>
+    </section>
+    
+
+
+
 
          
-        <footer>
-            <div class="footer_f">
-                <p>footer</p>
-            </div>
-         </footer>
+        
          
 
     </main>
