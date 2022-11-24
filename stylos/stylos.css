@@ -615,7 +615,8 @@ section#caja6 {
   display: grid;
   grid-template-columns: 5% 5% 25% 25% 40%;
   grid-template-rows: 50% 50%;
-  grid-template-areas: "caja1 caja3 caja5 caja5 caja6" "caja2 caja4 caja5 caja5 caja6"; }
+  grid-template-areas: "caja1 caja3 caja5 caja5 caja6"
+ "caja2 caja4 caja5 caja5 caja6"; }
 
 #caja1 {
   margin: auto; }
@@ -802,3 +803,21 @@ section#caja6 {
     padding-left: 20%; }
   .info_fin {
     height: 30px; } }
+
+ /*    .sn{
+      background-color: #00eeff;
+    }
+    .sn{
+      display: flex;
+      flex-direction: row;
+      height: 100px;
+    }
+    .img_snacks{
+      background-image: url(../images/ams.png);
+      background-size: cover;
+      width: 50%;
+    }
+    .info_sn{
+      width: 50%;
+
+    } */
